@@ -2,7 +2,8 @@
   /* Onde ficará o arquivo JS e para qual ecmascript será convertido */
   "compilerOptions": {
     "outDir": "dist/js",
-    "target": "ES6"
+    "target": "ES6",
+    "noEmitOnError": true /* Não permite ler o arquivo JS enquanto o TS tiver problemas */
   },
   /* Vai converter tudo da pasta 'app' */
   "include": ["app/**/*"]
