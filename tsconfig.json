@@ -1,0 +1,9 @@
+{
+  /* Onde ficará o arquivo JS e para qual ecmascript será convertido */
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "target": "ES6"
+  },
+  /* Vai converter tudo da pasta 'app' */
+  "include": ["app/**/*"]
+}
