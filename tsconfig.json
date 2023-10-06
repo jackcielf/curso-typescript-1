@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "dist/js",
     "target": "ES6",
-    "noEmitOnError": true /* Não permite ler o arquivo JS enquanto o TS tiver problemas */
+    "noEmitOnError": true, /* Não permite ler o arquivo JS enquanto o TS tiver problemas */
+    "noImplicitAny": true /* Não deixa que o tipo 'any' seja aplicado automaticamente nas variáveis */
   },
   /* Vai converter tudo da pasta 'app' */
   "include": ["app/**/*"]
